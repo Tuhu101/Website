@@ -133,3 +133,28 @@ body {
         display: flex;
     }
 }
+
+.Grid-Container ul{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-between;
+    padding-right: 40px;
+}
+
+.Grid-Container ul li{
+    text-decoration: none;
+    list-style: none;
+}
+.Grid-Container ul li a{
+    text-decoration: none;
+}
+
+.Grid-Container ul li img{
+    background-image: url('../Images/bg1.jpg');
+    outline: 2px solid red;
+}
+
+.Grid-Container .TextOnImagesC {
+    position: absolute;
+    
+  }
