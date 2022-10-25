@@ -156,5 +156,6 @@ body {
 
 .Grid-Container .TextOnImagesC {
     position: absolute;
-    
+    list-style: none;
+    text-decoration: none;
   }
