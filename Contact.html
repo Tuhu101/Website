@@ -27,9 +27,23 @@
       </div>
     </nav>
 
-    <div class="Container">
-      <h1>Hello World</h1>
-      <h2>Contact Page</h2>
+    <div class="Contact-Container">
+
+      <h1>Contact Form</h1>
+      <h3>To get in touch please fill out the form bellow</h3>
+      <form action="contact-form.php" method="post" id="Contact-form">
+        <input type="text" name="FName" placeholder="First Name" class="Contact-form-control" required>
+        <br>
+        <input type="text" name="LName" placeholder="Last Name" class="Contact-form-control" required>
+        <br>
+        <input type="text" name="Email" placeholder="Email" class="Contact-form-control" required>
+        <br>
+        <textarea name="Message" placeholder="Message" class="Contact-form-control-msg" required></textarea>
+        <br>
+        <input type="submit" class="Form-control-submit" value="Send"></input>
+      </form>
+
+
     </div>
 
 

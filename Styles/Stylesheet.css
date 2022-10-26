@@ -151,7 +151,7 @@ body {
 
 .Grid-Container ul li img{
     background-image: url('../Images/bg1.jpg');
-    outline: 2px solid red;
+    /*outline: 2px solid red; */
 }
 
 .Grid-Container .TextOnImagesC {
@@ -159,3 +159,168 @@ body {
     list-style: none;
     text-decoration: none;
   }
+
+
+  /* This part is for the Contact form. */
+.Contact-Container{
+    text-align: center;
+    background-image: url('../Images/Base_Background.jpg');
+    background-size: cover;
+    background: no-repeat;
+    background-repeat:no-repeat;
+}
+
+#Contact-form{
+    margin-top: 5%;
+    transition: all 4s ease-in-out;
+}
+
+.Contact-form-control{
+    width: 25%;
+    opacity: 0.5;
+    border: none;
+    outline: none;
+    border-bottom: 1px soild grey;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 2%;
+    height: 20%;
+}
+
+.Contact-form-control-msg{
+    width: 25%;
+    opacity: 0.5;
+    border: none;
+    outline: none;
+    border-bottom: 1px soild grey;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 2%;
+    height: 100px;
+}
+
+form .Form-control-submit{
+    background: #ff5722;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 5%;
+}
+
+@media (max-width: 1200px) {
+    .Contact-form-control{
+        width: 25%;
+        opacity: 0.5;
+        border: none;
+        outline: none;
+        border-bottom: 1px soild grey;
+        color: black;
+        font-size: 15px;
+        margin-bottom: 2%;
+        height: 50px;
+    }
+
+    .Contact-form-control-msg{
+        width: 25%;
+        opacity: 0.5;
+        border: none;
+        outline: none;
+        border-bottom: 1px soild grey;
+        color: black;
+        font-size: 15px;
+        margin-bottom: 2%;
+        height: 100px;
+    }
+    
+    form .Form-control-submit{
+        background: #ff5722;
+        border-color: transparent;
+        color: #fff;
+        font-size: 15px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        height: 50px;
+        margin-top: 10px;
+        margin-bottom: 2%;
+    }
+}
+
+@media (max-width: 800px) {
+    .Contact-form-control{
+        width: 40%;
+        opacity: 0.5;
+        border: none;
+        outline: none;
+        border-bottom: 1px soild grey;
+        color: black;
+        font-size: 15px;
+        margin-bottom: 2%;
+        height: 50px;
+    }
+
+    .Contact-form-control-msg{
+        width: 40%;
+        opacity: 0.5;
+        border: none;
+        outline: none;
+        border-bottom: 1px soild grey;
+        color: black;
+        font-size: 15px;
+        margin-bottom: 2%;
+        height: 100px;
+    }
+    
+    form .Form-control-submit{
+        background: #ff5722;
+        border-color: transparent;
+        color: #fff;
+        font-size: 15px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        height: 50px;
+        margin-top: 10px;
+        margin-bottom: 2%;
+    }
+}
+
+@media (max-width: 400px) {
+    .Contact-form-control{
+        width: 60%;
+        opacity: 0.5;
+        border: none;
+        outline: none;
+        border-bottom: 1px soild grey;
+        color: black;
+        font-size: 15px;
+        margin-bottom: 2%;
+        height: 35px;
+    }
+
+    .Contact-form-control-msg{
+        width: 60%;
+        opacity: 0.5;
+        border: none;
+        outline: none;
+        border-bottom: 1px soild grey;
+        color: black;
+        font-size: 15px;
+        margin-bottom: 2%;
+        height: 100px;
+    }
+    
+    form .Form-control-submit{
+        background: #ff5722;
+        border-color: transparent;
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        height: 50px;
+        margin-top: 10px;
+        margin-bottom: 2%;
+    }
+}
