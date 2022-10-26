@@ -324,3 +324,11 @@ form .Form-control-submit{
         margin-bottom: 2%;
     }
 }
+
+/*  Contact form success page. */
+.Success-Contact-Container{
+    text-align: center;
+}
+.Success-Contact-Container p{
+    font-size: 20px;
+}
