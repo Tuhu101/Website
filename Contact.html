@@ -32,11 +32,19 @@
       <h1>Contact Form</h1>
       <h3>To get in touch please fill out the form bellow</h3>
       <form action="https://formsubmit.co/fe385e7d15dc91c578d63622802d55d0" method="post" id="Contact-form">
+        <!-- Honeypot -->
+        <input type="text" name="_honey" style="display: none;">
+
+        <!-- Disable Captcha -->
+        <input type="hidden" name="_captcha" value="false">
+
         <input type="text" name="FName" placeholder="First Name" class="Contact-form-control" required>
         <br>
         <input type="text" name="LName" placeholder="Last Name" class="Contact-form-control" required>
         <br>
         <input type="text" name="Email" placeholder="Email" class="Contact-form-control" required>
+        <br>
+        <input type="text" name="Phone" placeholder="Phone Nr" class="Contact-form-control">
         <br>
         <textarea name="Message" placeholder="Message" class="Contact-form-control-msg" required></textarea>
         <br>
