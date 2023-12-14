@@ -332,3 +332,10 @@ form .Form-control-submit{
 .Success-Contact-Container p{
     font-size: 20px;
 }
+
+/*  This part is for the about me page. */
+.ProjektLinks{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
